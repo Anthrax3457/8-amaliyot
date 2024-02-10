@@ -1,0 +1,45 @@
+@media screen and (max-width:766px) {
+  #header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 819px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width:1004px) {
+  #header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 819px;
+    margin-top: 152px;
+    background-image: url(img/simple-house-01.jpg);
+  }
+}
+
+@media screen and (max-width:1300px) {
+  #header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    margin-top: -358px;
+    background-image: url(img/simple-house-01.jpg);
+  }
+}
+
+@media screen and (min-width:1300px) {
+  #header {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left;
+    width: 88%;
+    margin-top: -630px;
+    background-image: url(img/simple-house-01.jpg);
+  }
+}

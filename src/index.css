@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: flex;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  width: 100%;
+  background-color: #CDCDCD;
+}
